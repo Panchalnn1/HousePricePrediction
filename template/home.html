@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>5-Value Form</title>
+  <style>
+    /* Add some basic styling to the form */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    form {
+      width: 50%; /* Make the form 50% of the page width */
+      margin: 50px auto; /* Center the form horizontally */
+      padding: 20px; /* Add some padding around the form */
+      border: 1px solid #ccc; /* Add a border around the form */
+      border-radius: 10px; /* Add a rounded corner to the form */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the form */
+    }
+    label {
+      display: block; /* Make each label a block element */
+      margin-bottom: 10px; /* Add some space between each label */
+    }
+    input[type="text"] {
+      width: 100%; /* Make each input field 100% of the form width */
+      height: 30px; /* Set the height of each input field */
+      margin-bottom: 20px; /* Add some space between each input field */
+      padding: 10px; /* Add some padding to each input field */
+      border: 1px solid #ccc; /* Add a border around each input field */
+    }
+    input[type="submit"] {
+      background-color: #4CAF50; /* Set the background color of the submit button */
+      color: #fff; /* Set the text color of the submit button */
+      padding: 10px 20px; /* Add some padding to the submit button */
+      border: none; /* Remove the border around the submit button */
+      border-radius: 5px; /* Add a rounded corner to the submit button */
+      cursor: pointer; /* Change the cursor to a pointer when hovering over the submit button */
+    }
+    input[type="submit"]:hover {
+      background-color: #3e8e41;
+       /* Change the background color of the submit button on hover */
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color: rgb(6, 44, 44); text-align: center;">house price prediction </h1>
+  <form action="myData" method="get">
+    <label for="value1">Avg. Area Income:</label>
+    <input type="text" id="value1" name="value1"><br><br>
+    <label for="value2">Avg. Area House Age:</label>
+    <input type="text" id="value2" name="value2"><br><br>
+    <label for="value3">Avg. Area Number of Rooms:</label>
+    <input type="text" id="value3" name="value3"><br><br>
+    <label for="value4">Avg. Area Number of Bedrooms</label>
+    <input type="text" id="value4" name="value4"><br><br>
+    <label for="value5">dsa:</label>
+    <input type="text" id="value5" name="value5"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
